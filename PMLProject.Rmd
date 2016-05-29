@@ -35,6 +35,8 @@ suppressMessages(library(AppliedPredictiveModeling, warn.conflicts = FALSE, quie
 suppressMessages(library(randomForest, warn.conflicts = FALSE, quietly=TRUE))
 suppressMessages(library(rattle, warn.conflicts = FALSE, quietly=TRUE))
 suppressMessages(library(ggplot2, warn.conflicts = FALSE, quietly=TRUE))
+suppressMessages(library(rpart))
+suppressMessages(library(rpart.plot))
 ```
 
 ```{r}
